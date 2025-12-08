@@ -5,7 +5,7 @@ function Payment() {
   const [submitting, setSubmitting] = useState(false);
 
   // ✅ CHANGE THIS TO YOUR PAYMENT RECEIVER NUMBER (WITH COUNTRY CODE)
-  const whatsappNumber = "916238260619"; // Example: 91XXXXXXXXXX
+  const whatsappNumber = "918590048254"; // Example: 91XXXXXXXXXX
 
   // ✅ YOUR UPI ID
   const upiId = "yourupiid@upi"; // 🔴 CHANGE THIS
