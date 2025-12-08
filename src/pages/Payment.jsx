@@ -8,7 +8,7 @@ function Payment() {
   const navigate = useNavigate();
 
   // ✅ CHANGE THIS TO YOUR PAYMENT RECEIVER NUMBER (WITH COUNTRY CODE)
-  const whatsappNumber = "918590048254"; // 91XXXXXXXXXX
+  const whatsappNumber = "916238260619"; // 91XXXXXXXXXX
 
   // ✅ YOUR UPI ID
   const upiId = "adithyanks1811@oksbi";
