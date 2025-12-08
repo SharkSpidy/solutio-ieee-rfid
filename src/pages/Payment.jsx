@@ -8,7 +8,7 @@ function Payment() {
   const whatsappNumber = "918590048254"; // Example: 91XXXXXXXXXX
 
   // ✅ YOUR UPI ID
-  const upiId = "yourupiid@upi"; // 🔴 CHANGE THIS
+  const upiId = "adithyanks1811@oksbi"; // 🔴 CHANGE THIS
 
   useEffect(() => {
     const fee = localStorage.getItem("reg_fee");
