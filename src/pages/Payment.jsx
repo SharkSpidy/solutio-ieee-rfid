@@ -32,7 +32,7 @@ function Payment() {
 
     try {
       const response = await fetch(
-        "https://formspree.io/f/mjkneoea",
+        "https://formspree.io/f/mgvglnby",
         {
           method: "POST",
           body: finalData,
