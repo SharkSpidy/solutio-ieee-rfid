@@ -1,14 +1,17 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Payment() {
   const [amount, setAmount] = useState(0);
   const [submitting, setSubmitting] = useState(false);
 
+  const navigate = useNavigate();
+
   // ✅ CHANGE THIS TO YOUR PAYMENT RECEIVER NUMBER (WITH COUNTRY CODE)
-  const whatsappNumber = "918590048254"; // Example: 91XXXXXXXXXX
+  const whatsappNumber = "918590048254"; // 91XXXXXXXXXX
 
   // ✅ YOUR UPI ID
-  const upiId = "adithyanks1811@oksbi"; // 🔴 CHANGE THIS
+  const upiId = "adithyanks1811@oksbi";
 
   useEffect(() => {
     const fee = localStorage.getItem("reg_fee");
@@ -23,14 +26,12 @@ function Payment() {
   const proceedAfterPayment = () => {
     setSubmitting(true);
 
-    // ✅ GET TEAM NAME FROM LOCAL STORAGE
     const registrationData = JSON.parse(
       localStorage.getItem("registration_data")
     );
 
     const teamName = registrationData?.team_name || "Not Provided";
 
-    // ✅ PRE-FILLED WHATSAPP MESSAGE
     const message = `✅ PAYMENT CONFIRMATION - SOLUTIO EVENT
 
 Team Name: ${teamName}
@@ -39,23 +40,18 @@ Amount Paid: ₹${amount}
 I have completed the payment. Attaching screenshot below.`;
 
     const encodedMessage = encodeURIComponent(message);
-
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
-    // ✅ OPEN WHATSAPP WITH PRESET TEXT
     window.open(whatsappLink, "_blank");
 
-    // ✅ OPTIONAL SUCCESS REDIRECT
-    setTimeout(() => {
-      window.location.href = "/success";
-    }, 1500);
+    // ✅ Use React Router navigation instead of window.location
+    navigate("/success");
   };
 
   return (
     <div className="payment-page">
       <h1>Complete Payment</h1>
 
-      {/* ✅ PAYMENT INFO SECTION */}
       <div className="qr-section">
         <h2>Amount to Pay: ₹{amount}</h2>
 

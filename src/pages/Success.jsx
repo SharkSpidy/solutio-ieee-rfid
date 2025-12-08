@@ -4,10 +4,10 @@ function Success() {
   const whatsappGroupLink =
     "https://chat.whatsapp.com/C8t8OOztvrBDBAg1sK6np2?mode=hqrt3";
 
-  const paymentWhatsappNumber = "916238260619"; // 🔴 Same number used in Payment.jsx
+  // ✅ Use the same number as in Payment.jsx
+  const paymentWhatsappNumber = "918590048254";
 
   useEffect(() => {
-    // Optional: Auto-scroll to top
     window.scrollTo(0, 0);
   }, []);
 
