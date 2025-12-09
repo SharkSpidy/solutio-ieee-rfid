@@ -48,8 +48,8 @@ function Register() {
     const allHaveRFID = allParticipants.every((p) => p.rfid === true);
 
     if (anyoneWithoutIEEE) return 300;
-    if (allHaveIEEE && !allHaveRFID) return 250;
-    if (allHaveIEEE && allHaveRFID) return 200;
+    if (allHaveIEEE && !allHaveRFID) return 200;
+    if (allHaveIEEE && allHaveRFID) return 150;
 
     return 200;
   };
