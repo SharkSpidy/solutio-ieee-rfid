@@ -18,8 +18,8 @@ function Guidelines() {
             <p>• An individual can only participate through <b>one team</b>.</p>
             <p>• Members from different colleges are allowed to form a team.</p>
             <p>• The registration fees (per team) are:</p>
-            <p>1. IEEE RFID Members: ₹200</p>
-            <p>2. IEEE Members: ₹250</p>
+            <p>1. IEEE RFID Members: 150</p>
+            <p>2. IEEE Members: ₹200</p>
             <p>3. Non-IEEE Members: ₹300</p>
             <p><b>Note:</b> Team category is decided by the majority of the team.</p>
             <p><b>Example:</b> If two are IEEE members and one is a Non-IEEE member, the team will be in IEEE category.</p>
