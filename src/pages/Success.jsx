@@ -5,7 +5,7 @@ function Success() {
     "https://chat.whatsapp.com/C8t8OOztvrBDBAg1sK6np2?mode=hqrt3";
 
   // ✅ Use the same number as in Payment.jsx
-  const paymentWhatsappNumber = "918590048254";
+  const paymentWhatsappNumber = "916238260619";
 
   useEffect(() => {
     window.scrollTo(0, 0);
