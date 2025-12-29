@@ -13,7 +13,7 @@ function Guidelines() {
           {/* REGISTRATION */}
           <div className="guideline-item">
             <h3>Registration</h3>
-            <p>• The registration and selection (of final teams) closes on <b>15th December 2025 at 11:59 PM</b>.</p>
+            <p>• The registration and selection (of final teams) closes on <b>17th January 2026 at 11:59 PM</b>.</p>
             <p>• A team should consist of a maximum of <b>3 members</b>.</p>
             <p>• An individual can only participate through <b>one team</b>.</p>
             <p>• Members from different colleges are allowed to form a team.</p>
