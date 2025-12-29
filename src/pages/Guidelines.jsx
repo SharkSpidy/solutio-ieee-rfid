@@ -13,7 +13,12 @@ function Guidelines() {
           {/* REGISTRATION */}
           <div className="guideline-item">
             <h3>Registration</h3>
-            <p>• The registration and selection (of final teams) closes on <b>17th January 2026 at 11:59 PM</b>.</p>
+            <p>• There will be two rounds. A <b>Selection Round</b> and <b>Final Round</b>.</p>
+            <p>• Only <b>5 teams</b> from Selection round will be advanced to Final round.</p>
+            <p>• Registration will be closed on <b>3rd January 2026</b>.</p>
+            <p>• The Selection round will take place during <b>4th January 2026 to 9th January 2026</b>.</p>
+            <p>• The Final round will be on <b>17th January 2026</b> held at <b>MBITS College, Kothamangalam</b>.</p>
+            <p>•</p>
             <p>• A team should consist of a maximum of <b>3 members</b>.</p>
             <p>• An individual can only participate through <b>one team</b>.</p>
             <p>• Members from different colleges are allowed to form a team.</p>
@@ -41,8 +46,8 @@ function Guidelines() {
 
           {/* ONLINE ROUND */}
           <div className="guideline-item">
-            <h3>Online Selection Round (Before 15th December 2025)</h3>
-            <p>1. The round will be completed within <b>15th December 2025</b>.</p>
+            <h3>Online Selection Round</h3>
+            <p>1. The Selecion round will take place during <b>4th January 2026 to 9th January 2026</b>.</p>
             <p>2. The round will have <b>five questions</b> (from basic to advanced).</p>
             <p>3. Teams giving the best solutions to most questions will be advanced.</p>
             <p>4. Teams may build <b>physical or online simulations</b>.</p>
@@ -51,11 +56,18 @@ function Guidelines() {
 
           {/* FINAL ROUND */}
           <div className="guideline-item">
-            <h3>Final Round (20th December 2025)</h3>
-            <p>1. Top <b>5 teams</b> from the selection round will advance.</p>
-            <p>2. The final question will be announced at the venue.</p>
+            <h3>Final Round</h3>
+            <p>1. Final round will be on <b>17th January 2026</b>.</p>
+            <p>2. It will take place at <b>MBITS College Kothamangalam</b>.</p>
+            <p>3. Top <b>5 teams</b> from the selection round will advance.</p>
+            <p>4. The questions for the final round will be announced after Selection round.</p>
+            <p>5. Advanced 5 teams are required to build project at the venue.</p>
+            <p>6. Each team can improve the solution as their wish.</p>
+            <p>7. Each team will be provided with an <b>Arduino board and Breadboard</b>.
+            Other required components are requested to bring by the participants.</p>
+            <p>8. Each team are required to present their project using ppt at the end.</p>
             <p><b>Timeline:</b></p>
-            <p>• Project Build Time: Up to <b>3:00 PM</b></p>
+            <p>• Project Build Time: <b>9 AM</b> to <b>3:00 PM</b></p>
             <p>• Presentation Time: <b>3:00 PM – 5:00 PM</b></p>
           </div>
 
@@ -65,13 +77,21 @@ function Guidelines() {
             <p>• Participants must adhere to ethical code of conduct.</p>
             <p>• Any misconduct, dishonesty, or plagiarism will lead to disqualification.</p>
             <p>• Timelines must be followed. Late submissions will not be evaluated.</p>
-            <p>• Arduino board and RFID tag (if required) will be provided for the <b>first 3 registered teams</b>.</p>
             <p>• Participants are responsible for any damage to provided equipment.</p>
             <p>• Lunch, water, and snacks will be provided.</p>
             <p>• Teams can approach volunteers for any technical or non-technical support.</p>
             <p>• Organisers reserve the right to change rules or schedules.</p>
-            <p>• Judges' and organisers' decisions are final and binding.</p>
+            <p>• Judges and organisers decisions are final and binding.</p>
             <p>• Any changes will be notified to participants.</p>
+          </div>
+
+          {/* CONTACT*/}
+          <div className="guidline-item">
+            <h3>For any Assistence and Doubts,
+              Contact</h3>
+              <p>1. <b>Adithyan</b> : 6238260619</p>
+              <p>2. <b>Anna</b> : 7594869382</p>
+              <p>3. <b>Abhirami</b> : 8590360633</p>
           </div>
 
         </div>
