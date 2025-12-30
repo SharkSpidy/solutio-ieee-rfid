@@ -18,7 +18,6 @@ function Guidelines() {
             <p>• Registration will be closed on <b>3rd January 2026</b>.</p>
             <p>• The Selection round will take place during <b>4th January 2026 to 9th January 2026</b>.</p>
             <p>• The Final round will be on <b>17th January 2026</b> held at <b>MBITS College, Kothamangalam</b>.</p>
-            <p>•</p>
             <p>• A team should consist of a maximum of <b>3 members</b>.</p>
             <p>• An individual can only participate through <b>one team</b>.</p>
             <p>• Members from different colleges are allowed to form a team.</p>
